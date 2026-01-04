@@ -1,0 +1,220 @@
+(footprint "TPS61023 Breakout THT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.127 1.016 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "73d7cb02-b4f7-48e7-8a06-30393846161d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Value" "TPS61023 BO THT"
+		(at 0 -4.318 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9cebdbc5-8814-4c92-b9b1-7a0d30814628")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps61023.pdf?ts=1767434048604"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a943a7a-87d9-47d6-8bbd-e80c581b71eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a5e83aa-8bf8-4651-92c5-92aea788783a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Link" "https://www.adafruit.com/product/4654"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a09f4623-46be-4cf7-8004-f0530187f581")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.715 -8.9)
+		(end -5.715 8.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e222b291-c03f-4448-831f-c65cfca38b26")
+	)
+	(fp_line
+		(start -5.715 8.9)
+		(end 5.715 8.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ce2cdb1-14ea-49e1-918f-69ad5e75eb02")
+	)
+	(fp_line
+		(start 5.715 -8.9)
+		(end -5.715 -8.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36b61928-58a2-4271-a166-11bd93279937")
+	)
+	(fp_line
+		(start 5.715 -8.9)
+		(end 5.715 8.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b05273a-95d2-44f3-8ea9-4968734028af")
+	)
+	(fp_text user "5V"
+		(at 0.381 8.636 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7fb93707-60ca-4c5b-b3e0-025a577ca34b")
+		(effects
+			(font
+				(size 0.8636 0.8636)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Vin"
+		(at -4.826 8.636 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8100159b-de51-41ba-95ea-bf2eda340ce9")
+		(effects
+			(font
+				(size 0.8636 0.8636)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at -2.667 8.636 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "daa0f0f7-0338-4410-bd0c-4c543f11933f")
+		(effects
+			(font
+				(size 0.8636 0.8636)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "En"
+		(at 2.921 8.636 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dfbd9098-ddf8-4bf3-a951-a025fa114e38")
+		(effects
+			(font
+				(size 0.8636 0.8636)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "TPS61023 BO"
+		(at -5.08 -0.008 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fba1e8ba-68e2-43d3-b900-195a27bc8f8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.794 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a5b0819f-f41d-495b-a79e-20e992cb40f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 6.36)
+		(size 1.7 1.7)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "42c086f5-beab-4fef-9fdd-be097e39ee36")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 6.36)
+		(size 1.7 1.7)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7b120057-4643-48f3-8d74-aae6e6d0431b")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 6.36)
+		(size 1.7 1.7)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "333c233b-50fc-4ddc-8337-e7ab9f9e9212")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 6.36)
+		(size 1.7 1.7)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bbb376dc-31ae-4384-b179-7e4884ef53e0")
+	)
+	(embedded_fonts no)
+)

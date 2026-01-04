@@ -1,0 +1,158 @@
+(footprint "CR123 Battery Holder THT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "950c3e9a-29bf-428a-b6f8-0920805147d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CR123 Battery Holder THT"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "73144b8d-49a5-4a02-9eaf-e7e78e9407c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1c5f455-faf4-4da2-acd6-ab43d882549e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CR123 Battery Holder THT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "210f5d03-7025-42e4-97f9-e36f6e7f15c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Link" "https://www.amazon.com/dp/B082V1W3M6"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "affbaa41-bed2-4e89-8a30-154fb092b74e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -29.21 -2.54)
+		(end -29.21 2.54)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8ae5b0f-0cd6-4b4d-b342-ee214fc752fb")
+	)
+	(fp_line
+		(start -26.67 0)
+		(end -31.75 0)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f4ecd4d-f3e2-4594-a718-1b41f08d3213")
+	)
+	(fp_line
+		(start -21.625 -9.125)
+		(end -21.625 9.125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "24cc72ed-b0f6-4acd-885a-77575587b6f7")
+	)
+	(fp_line
+		(start 21.625 -9.125)
+		(end -21.625 -9.125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee222cfa-5dfc-485b-b686-75eedfe4e2ba")
+	)
+	(fp_line
+		(start 21.625 -9.125)
+		(end 21.625 9.125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83b88b88-e327-4398-a2e7-045426e5cd55")
+	)
+	(fp_line
+		(start 21.625 9.125)
+		(end -21.625 9.125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2739bb2e-c902-47fe-b36c-39550f81c3bf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7bfcaa33-7b97-4eeb-aaa3-1462346acb75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -19.085 0)
+		(size 1.778 1.778)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bf598c1f-853c-49a5-a3d4-0de9688ccafb")
+	)
+	(pad "2" thru_hole circle
+		(at 19.085 0)
+		(size 1.778 1.778)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "de05090c-dac3-48b0-aade-1d207ae1bf1c")
+	)
+	(embedded_fonts no)
+)
