@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "MB85RC256V I2C Breakout THT"
-		(at 0 -12.7 0)
+		(at 0 -5.842 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "83a947b0-599b-451b-972f-4c9b9a55b2b7")
@@ -164,7 +164,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -10.16 0)
+		(at 0 -4.191 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "045a0396-deb7-4911-944f-93105e0f21f2")

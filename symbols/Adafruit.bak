@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit:MAX4466 Breakout THT"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(effects
 				(font
