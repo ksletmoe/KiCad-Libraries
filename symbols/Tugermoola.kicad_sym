@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Tugermoola:Terminal-Block-5mm-2pos"
 			(at 0 0 0)
 			(effects
 				(font
@@ -190,7 +190,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Tugermoola:Terminal-Block-5mm-4pos"
 			(at 0 0 0)
 			(effects
 				(font
